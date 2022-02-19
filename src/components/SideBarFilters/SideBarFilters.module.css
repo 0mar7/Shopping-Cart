@@ -1,0 +1,49 @@
+.filters{
+    background-color: #232F3E;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction:column ;
+    width: 20%;
+    margin: 10px;
+    height: 130vh; 
+}
+.title{
+    font-size: 30px;
+}
+.filters > span{
+    padding-bottom:20px ;
+}
+
+@media  (max-width: 1100px) and (min-width: 768px) {
+  .filters{
+    width: 40%;
+    padding:15px;
+    margin:10px;
+  }
+
+  .filters > span {
+    font-size: 20px;
+  }  
+
+  .title{
+    font-size: 30px !important;
+  }
+
+}
+
+@media  (max-width: 768px) and (min-width: 500px) {
+    .filters{
+      width: 40%;
+      padding:10px;
+      margin:5px;
+    }
+  
+    .filters > span {
+      font-size: 10px;
+    }  
+  
+    .title{
+      font-size: 20px !important;
+    }
+}

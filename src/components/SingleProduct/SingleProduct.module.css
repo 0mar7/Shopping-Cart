@@ -1,0 +1,25 @@
+.products{
+    width: 30%;
+    margin: 10px;
+}
+@media  (max-width: 1200px) and (min-width: 900px) {
+
+  .products{
+    width:30%;
+  }
+}
+
+@media  (max-width: 1100px) and (min-width: 768px) {
+
+    .products{
+      width:40%;
+    }
+}
+
+@media  (max-width: 768px) and (min-width: 500px) {
+
+    .products{
+      width:100%;
+    }
+}
+  
